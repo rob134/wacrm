@@ -1,0 +1,43 @@
+{
+  "LoginPage": {
+    "titleAccept": "Entrar para aceitar",
+    "titleWelcome": "Bem-vindo de volta",
+    "descAccept": "Faça login e vamos levá-lo ao convite.",
+    "descWelcome": "Entre na sua conta",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "voce@exemplo.com",
+    "passwordLabel": "Senha",
+    "forgotPassword": "Esqueceu a senha?",
+    "passwordPlaceholder": "Digite sua senha",
+    "signingIn": "Entrando...",
+    "signIn": "Entrar",
+    "noAccount": "Não tem uma conta?",
+    "createAccount": "Criar conta"
+  },
+  "Sidebar": {
+    "title": "CRM Template para WhatsApp",
+    "dashboard": "Painel",
+    "inbox": "Caixa de entrada",
+    "notifications": "Notificações",
+    "contacts": "Contatos",
+    "pipelines": "Pipelines",
+    "broadcasts": "Envios",
+    "automations": "Automatizações",
+    "flows": "Fluxos",
+    "aiAgents": "Agentes de IA",
+    "settings": "Configurações",
+    "beta": "Beta",
+    "unreadConversations": "{count} não lida {count, plural, =1 {conversa} other {conversas}}",
+    "unreadNotifications": "{count} não lida {count, plural, =1 {notificação} other {notificações}}",
+    "roleOwner": "Proprietário",
+    "roleAdmin": "Administrador",
+    "roleAgent": "Agente",
+    "roleViewer": "Visualizador",
+    "closeMenu": "Fechar menu",
+    "defaultUser": "Usuário",
+    "defaultAvatar": "Avatar",
+    "menuProfile": "Perfil",
+    "menuSettings": "Configurações",
+    "menuSignOut": "Sair"
+  }
+}
