@@ -190,17 +190,17 @@ html[data-theme="cobalt"] {
 }
 
 html[data-theme="amber"] {
-  --primary: oklch(0.745 0.16 65);
+  --primary: #ffd60a;
   --primary-foreground: oklch(0.18 0.03 65);
-  --primary-hover: oklch(0.8 0.15 65);
-  --primary-soft: oklch(0.745 0.16 65 / 0.12);
-  --primary-soft-2: oklch(0.745 0.16 65 / 0.22);
-  --ring: oklch(0.745 0.16 65);
-  --chart-1: oklch(0.745 0.16 65);
+  --primary-hover: #ffdb2e;
+  --primary-soft: rgba(255, 214, 10, 0.12);
+  --primary-soft-2: rgba(255, 214, 10, 0.2);
+  --ring: #ffd60a;
+  --chart-1: #ffd60a;
   --chart-2: oklch(0.7 0.15 35);
-  --sidebar-primary: oklch(0.745 0.16 65);
+  --sidebar-primary: #ffd60a;
   --sidebar-primary-foreground: oklch(0.18 0.03 65);
-  --sidebar-ring: oklch(0.745 0.16 65);
+  --sidebar-ring: #ffd60a;
 }
 
 html[data-theme="rose"] {
