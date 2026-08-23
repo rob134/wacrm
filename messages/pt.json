@@ -1,31 +1,31 @@
 {
   "LoginPage": {
-    "titleAccept": "Sign in to accept",
-    "titleWelcome": "Welcome back",
-    "descAccept": "Sign in and we'll take you to the invitation.",
-    "descWelcome": "Sign in to your account",
+    "titleAccept": "Faça login para aceitar",
+    "titleWelcome": "Bem-vindo de volta",
+    "descAccept": "Faça login e iremos levá-lo ao convite.",
+    "descWelcome": "Faça login em sua conta",
     "emailLabel": "Email",
-    "emailPlaceholder": "you@example.com",
-    "passwordLabel": "Password",
-    "forgotPassword": "Forgot password?",
-    "passwordPlaceholder": "Enter your password",
-    "signingIn": "Signing in...",
-    "signIn": "Sign in",
-    "noAccount": "Don't have an account?",
-    "createAccount": "Create account"
+    "emailPlaceholder": "voce@exemplo.com",
+    "passwordLabel": "Senha",
+    "forgotPassword": "Esqueceu a senha?",
+    "passwordPlaceholder": "Digite sua senha",
+    "signingIn": "Entrando...",
+    "signIn": "Fazer login",
+    "noAccount": "Não tem uma conta?",
+    "createAccount": "Criar conta"
   },
   "Sidebar": {
-    "title": "CRM Template for WhatsApp",
-    "dashboard": "Dashboard",
-    "inbox": "Inbox",
+    "title": "Template CRM para WhatsApp",
+    "dashboard": "Painel",
+    "inbox": "Caixa de entrada",
     "notifications": "Notifications",
-    "contacts": "Contacts",
-    "pipelines": "Pipelines",
-    "broadcasts": "Broadcasts",
-    "automations": "Automations",
-    "flows": "Flows",
+    "contacts": "Contatos",
+    "pipelines": "Funis",
+    "broadcasts": "Transmissões",
+    "automations": "Automações",
+    "flows": "Fluxos",
     "aiAgents": "AI Agents",
-    "settings": "Settings",
+    "settings": "Configurações",
     "beta": "Beta",
     "unreadConversations": "{count} unread {count, plural, =1 {conversation} other {conversations}}",
     "unreadNotifications": "{count} unread {count, plural, =1 {notification} other {notifications}}",
@@ -36,25 +36,25 @@
     "closeMenu": "Close menu",
     "defaultUser": "User",
     "defaultAvatar": "Avatar",
-    "menuProfile": "Profile",
-    "menuSettings": "Settings",
+    "menuProfile": "Perfil",
+    "menuSettings": "Configurações",
     "menuSignOut": "Sign out"
   },
   "Header": {
-    "dashboard": "Dashboard",
-    "inbox": "Inbox",
+    "dashboard": "Painel",
+    "inbox": "Caixa de entrada",
     "notifications": "Notifications",
-    "contacts": "Contacts",
-    "pipelines": "Pipelines",
-    "broadcasts": "Broadcasts",
-    "automations": "Automations",
-    "settings": "Settings",
+    "contacts": "Contatos",
+    "pipelines": "Funis",
+    "broadcasts": "Transmissões",
+    "automations": "Automações",
+    "settings": "Configurações",
     "openMenu": "Open menu",
     "openAccountMenu": "Open account menu",
     "defaultUser": "User",
     "defaultAvatar": "Avatar",
-    "menuProfile": "Profile",
-    "menuSettings": "Settings",
+    "menuProfile": "Perfil",
+    "menuSettings": "Configurações",
     "menuSignOut": "Sign out"
   },
   "ModeToggle": {
@@ -69,7 +69,7 @@
   },
   "Dashboard": {
     "page": {
-      "title": "Dashboard",
+      "title": "Painel",
       "description": "Live analytics across conversations, contacts, deals, broadcasts, and automations.",
       "activeConversations": "Active Conversations",
       "newContactsToday": "New Contacts Today",
@@ -301,7 +301,7 @@
   },
   "Contacts": {
     "page": {
-      "title": "Contacts",
+      "title": "Contatos",
       "subtitle": "Manage your contact list. {count} total contacts.",
       "subtitleZero": "Manage your contact list.",
       "customFieldsBtn": "Custom fields",
@@ -615,7 +615,7 @@
   },
   "Broadcasts": {
     "page": {
-      "title": "Broadcasts",
+      "title": "Transmissões",
       "subtitle": "Send bulk messages to your contacts using approved templates.",
       "newBroadcast": "New Broadcast",
       "noBroadcastsYet": "No broadcasts yet",
@@ -805,7 +805,7 @@
   },
   "Automations": {
     "list": {
-      "title": "Automations",
+      "title": "Automações",
       "subtitle": "Build workflows that react to WhatsApp® events automatically.",
       "create": "Create Automation",
       "retry": "Retry",
@@ -972,7 +972,7 @@
         "messageText": "Message text",
         "placeholderMessageText": "Hi! Thanks for reaching out…",
         "tagLabel": "Tag",
-        "modeLabel": "Mode",
+        "modeLabel": "Modo",
         "modes": {
           "round_robin": "Round-robin",
           "specific": "Specific agent"
@@ -1016,7 +1016,7 @@
   },
   "Flows": {
     "list": {
-      "title": "Flows",
+      "title": "Fluxos",
       "beta": "Beta",
       "description": "Build branching, button-driven WhatsApp conversations. Useful for menus, FAQs, and triage before a human steps in.",
       "newFlow": "New flow",
@@ -1237,7 +1237,7 @@
     }
   },
   "Settings": {
-    "pageTitle": "Settings",
+    "pageTitle": "Configurações",
     "pageDesc": "Everything in one place — your account and your workspace. Pick a section to manage it.",
     "overview": {
       "notSetup": "Not set up yet",
@@ -1342,11 +1342,11 @@
       "colors": {
         "red": "Red",
         "orange": "Orange",
-        "amber": "Amber",
-        "emerald": "Emerald",
+        "amber": "Âmbar",
+        "emerald": "Esmeralda",
         "cyan": "Cyan",
         "blue": "Blue",
-        "violet": "Violet",
+        "violet": "Violeta",
         "pink": "Pink"
       }
     },
@@ -1532,7 +1532,7 @@
       "overview": "Overview",
       "profile": "Your profile",
       "security": "Login & security",
-      "appearance": "Appearance",
+      "appearance": "Aparência",
       "whatsapp": "WhatsApp",
       "templates": "Templates",
       "quick-replies": "Quick replies",
@@ -1573,7 +1573,7 @@
       "profileSaved": "Profile saved",
       "emailChangeFailed": "Email change failed: {message}",
       "profileSavedEmailCheck": "Profile saved — check your email to confirm the address change",
-      "passwordTitle": "Password",
+      "passwordTitle": "Senha",
       "passwordDesc": "Use at least {min} characters. You will stay signed in on this device after changing it.",
       "currentPassword": "Current password",
       "newPassword": "New password",
@@ -1597,9 +1597,9 @@
       "signOutFailed": "Sign-out failed: {message}"
     },
     "appearance": {
-      "title": "Appearance",
+      "title": "Aparência",
       "description": "Set the mode and accent colour used across the app. Saved to this device — try it, it changes live.",
-      "mode": "Mode",
+      "mode": "Modo",
       "useMode": "Use {mode} mode",
       "active": "Active",
       "accentColor": "Accent color",
