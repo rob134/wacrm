@@ -575,6 +575,7 @@
     },
     "settings": {
       "managePipeline": "Manage Pipeline",
+      "pageDesc": "Tudo em um só lugar: sua conta e seu espaço de trabalho. Escolha uma seção para gerenciá-los.",
       "deletePipeline": "Delete Pipeline",
       "deletePipelineDesc": "This will archive all deals in this pipeline. This cannot be undone.",
       "cancel": "Cancel",
@@ -1238,7 +1239,7 @@
   },
   "Settings": {
     "pageTitle": "Configurações",
-    "pageDesc": "Everything in one place — your account and your workspace. Pick a section to manage it.",
+    "pageDesc": "Tudo em um só lugar: sua conta e seu espaço de trabalho. Escolha uma seção para gerenciá-los.",
     "overview": {
       "notSetup": "Not set up yet",
       "connected": "Connected",
@@ -1529,21 +1530,21 @@
       "metaDocs": "Meta WhatsApp API Documentation"
     },
     "sections": {
-      "overview": "Overview",
-      "profile": "Your profile",
-      "security": "Login & security",
+      "overview": "Visão geral",
+      "profile": "Seu perfil",
+      "security": "Login e segurança",
       "appearance": "Aparência",
       "whatsapp": "WhatsApp",
-      "templates": "Templates",
-      "quick-replies": "Quick replies",
-      "fields": "Fields & tags",
-      "deals": "Deals & currency",
-      "members": "Team members",
-      "api": "API keys"
+      "templates": "Modelos",
+      "quick-replies": "Respostas rápidas",
+      "fields": "Campos e etiquetas",
+      "deals": "Negócios e moeda",
+      "members": "Membros da equipe",
+      "api": "Chaves de API"
     },
     "groups": {
-      "account": "Account",
-      "workspace": "Workspace"
+      "account": "Conta",
+      "workspace": "Espaço de trabalho"
     },
     "profile": {
       "title": "Your profile",
@@ -1598,12 +1599,21 @@
     },
     "appearance": {
       "title": "Aparência",
-      "description": "Set the mode and accent colour used across the app. Saved to this device — try it, it changes live.",
+      "description": "Defina o modo e a cor de destaque usados no aplicativo. A escolha é salva neste dispositivo e aplicada imediatamente.",
       "mode": "Modo",
-      "useMode": "Use {mode} mode",
-      "active": "Active",
-      "accentColor": "Accent color",
-      "useTheme": "Use {name} theme"
+      "light": "Claro",
+      "dark": "Escuro",
+      "useMode": "Usar modo {mode}",
+      "active": "Ativo",
+      "accentColor": "Cor de destaque",
+      "useTheme": "Usar tema {name}",
+      "themes": {
+        "violet": { "name": "Violeta", "tagline": "O padrão: confiante e levemente descontraído." },
+        "emerald": { "name": "Esmeralda", "tagline": "Remete a crescimento e mensagens sem copiar o verde do WhatsApp." },
+        "cobalt": { "name": "Cobalto", "tagline": "Azul B2B SaaS limpo, calmo e profissional." },
+        "amber": { "name": "Âmbar", "tagline": "Acolhedor e amigável, ideal para equipes de pequenas empresas." },
+        "rose": { "name": "Rosa", "tagline": "Ousado e moderno, para marcas, criadores e lifestyle." }
+      }
     },
     "security": {
       "title": "Login & security",

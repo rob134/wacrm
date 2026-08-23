@@ -575,6 +575,7 @@
     },
     "settings": {
       "managePipeline": "파이프라인 관리",
+      "pageDesc": "계정과 워크스페이스에 관한 모든 것을 한곳에서 관리하세요. 관리할 섹션을 선택하세요.",
       "deletePipeline": "파이프라인 삭제",
       "deletePipelineDesc": "이 파이프라인의 모든 딜이 보관 처리됩니다. 되돌릴 수 없습니다.",
       "cancel": "취소",
@@ -1612,10 +1613,19 @@
       "title": "화면 설정",
       "description": "앱 전체에서 사용할 모드와 강조 색상을 설정합니다. 이 기기에 저장되며, 바로 적용되니 자유롭게 시도해보세요.",
       "mode": "모드",
+      "light": "라이트",
+      "dark": "다크",
       "useMode": "{mode} 모드 사용",
       "active": "사용 중",
       "accentColor": "강조 색상",
-      "useTheme": "{name} 테마 사용"
+      "useTheme": "{name} 테마 사용",
+      "themes": {
+        "violet": { "name": "바이올렛", "tagline": "기본 테마: 자신감 있고 약간 유쾌합니다." },
+        "emerald": { "name": "에메랄드", "tagline": "WhatsApp의 녹색을 그대로 따르지 않으면서 메시징과 성장을 표현합니다." },
+        "cobalt": { "name": "코발트", "tagline": "차분하고 깔끔한 B2B SaaS 블루입니다." },
+        "amber": { "name": "앰버", "tagline": "중소기업 팀에 어울리는 따뜻하고 친근한 색상입니다." },
+        "rose": { "name": "로즈", "tagline": "브랜드와 크리에이터를 위한 대담하고 현대적인 색상입니다." }
+      }
     },
     "security": {
       "title": "로그인 & 보안",

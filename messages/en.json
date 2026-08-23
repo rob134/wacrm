@@ -576,6 +576,7 @@
     "settings": {
       "managePipeline": "Manage Pipeline",
       "deletePipeline": "Delete Pipeline",
+      "pageDesc": "Everything in one place — your account and your workspace. Pick a section to manage it.",
       "deletePipelineDesc": "This will archive all deals in this pipeline. This cannot be undone.",
       "cancel": "Cancel",
       "deleting": "Deleting...",
@@ -1612,10 +1613,19 @@
       "title": "Appearance",
       "description": "Set the mode and accent colour used across the app. Saved to this device — try it, it changes live.",
       "mode": "Mode",
+      "light": "Light",
+      "dark": "Dark",
       "useMode": "Use {mode} mode",
       "active": "Active",
       "accentColor": "Accent color",
-      "useTheme": "Use {name} theme"
+      "useTheme": "Use {name} theme",
+      "themes": {
+        "violet": { "name": "Violet", "tagline": "The default — confident, slightly playful." },
+        "emerald": { "name": "Emerald", "tagline": "Growth-coded, nods at messaging without copying WhatsApp green." },
+        "cobalt": { "name": "Cobalt", "tagline": "Clean B2B-SaaS blue — calm and product-y." },
+        "amber": { "name": "Amber", "tagline": "Warm and friendly — feels good for SMB teams." },
+        "rose": { "name": "Rose", "tagline": "Bold and modern — D2C, creator-economy, lifestyle." }
+      }
     },
     "security": {
       "title": "Login & security",

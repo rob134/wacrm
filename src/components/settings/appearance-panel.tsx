@@ -39,7 +39,7 @@ export function AppearancePanel() {
 
         <div
           role="radiogroup"
-          aria-label="Color mode"
+          aria-label={t("mode")}
           className="grid max-w-md grid-cols-2 gap-3"
         >
           {MODES.map((m) => (
@@ -47,6 +47,7 @@ export function AppearancePanel() {
               key={m}
               mode={m}
               isActive={m === mode}
+              label={t(m)}
               onPick={() => setMode(m)}
             />
           ))}
@@ -64,8 +65,8 @@ export function AppearancePanel() {
             <ThemeCard
               key={tObj.id}
               id={tObj.id}
-              name={tObj.name}
-              tagline={tObj.tagline}
+              name={t(`themes.${tObj.id}.name`)}
+              tagline={t(`themes.${tObj.id}.tagline`)}
               swatch={tObj.swatch}
               isActive={tObj.id === theme}
               onPick={() => setTheme(tObj.id)}
@@ -80,10 +81,12 @@ export function AppearancePanel() {
 function ModeCard({
   mode,
   isActive,
+  label,
   onPick,
 }: {
   mode: Mode;
   isActive: boolean;
+  label: string;
   onPick: () => void;
 }) {
   const t = useTranslations("Settings.appearance");
@@ -110,7 +113,7 @@ function ModeCard({
         <Icon className="h-4 w-4" />
       </span>
       <span className="flex-1 text-sm font-semibold capitalize text-foreground">
-        {mode}
+        {label}
       </span>
       {isActive && (
         <span className="inline-flex items-center gap-1 rounded-full bg-primary/15 px-2 py-0.5 text-[11px] font-medium text-primary">
