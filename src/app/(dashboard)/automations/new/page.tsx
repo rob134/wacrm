@@ -2,6 +2,7 @@
 
 import { Suspense, useMemo } from "react"
 import { useSearchParams } from "next/navigation"
+import { useTranslations } from "next-intl"
 
 import {
   AutomationBuilder,
@@ -25,6 +26,7 @@ export default function NewAutomationPage() {
 function NewAutomationPageInner() {
   const params = useSearchParams()
   const template = params.get("template") as TemplateSlug | null
+  const tTemplates = useTranslations("Automations.templates")
 
   const initial: BuilderInitial = useMemo(() => {
     if (template && AUTOMATION_TEMPLATES[template]) {
@@ -38,8 +40,8 @@ function NewAutomationPageInner() {
           parent_index: seed.parent_index ?? null,
         })),
       )
-      return {
-        name: t.name,
+      return {Templates(`${template}.name`),
+        description: tTemplates(`${template}.description`)
         description: t.description,
         trigger_type: t.trigger_type,
         trigger_config: t.trigger_config as Record<string, unknown>,
@@ -55,7 +57,7 @@ function NewAutomationPageInner() {
       is_active: false,
       steps: [],
     }
-  }, [template])
+  }, [template, tTemplates])
 
   return <AutomationBuilder initial={initial} />
 }

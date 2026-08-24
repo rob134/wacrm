@@ -67,6 +67,17 @@
     "errorBody": "계정 역할을 불러오지 못해 모든 작업이 읽기 전용으로 처리되며 변경 사항은 저장되지 않습니다. 연결을 확인한 후 다시 시도하세요.",
     "retry": "다시 시도"
   },
+  "Notifications": {
+    "title": "알림",
+    "subtitle": "다른 팀원이 나에게 배정한 대화가 여기에 표시됩니다.",
+    "markAllRead": "모두 읽음으로 표시",
+    "emptyTitle": "아직 알림이 없습니다",
+    "emptyDesc": "누군가 대화를 배정하면 여기에 알림이 표시됩니다.",
+    "unreadAria": "읽지 않음",
+    "retry": "다시 시도",
+    "toastMarkFailed": "알림을 읽음으로 표시하지 못했습니다",
+    "toastMarkAllFailed": "모두 읽음으로 표시하지 못했습니다"
+  },
   "Dashboard": {
     "page": {
       "title": "대시보드",
@@ -513,6 +524,13 @@
       "pipelineName": "파이프라인 이름",
       "pipelineNamePlaceholder": "예: 기업 영업",
       "defaultStagesDesc": "기본 단계(신규 리드 → 성사)가 자동으로 생성됩니다.",
+      "defaultStages": {
+        "newLead": "신규 리드",
+        "qualified": "자격 충족",
+        "proposalSent": "제안 발송",
+        "negotiation": "협상",
+        "won": "성사"
+      },
       "cancel": "취소",
       "creating": "만드는 중...",
       "createPipelineBtn": "파이프라인 만들기",
@@ -833,6 +851,24 @@
         "updateError": "업데이트하지 못했습니다",
         "duplicateError": "복제하지 못했습니다",
         "deleteError": "삭제하지 못했습니다"
+      }
+    },
+    "templates": {
+      "welcome_message": {
+        "name": "환영 메시지",
+        "description": "신규 연락처에 인사말로 자동 응답합니다."
+      },
+      "out_of_office": {
+        "name": "부재 중",
+        "description": "업무 시간 외에 자동 응답하여 대기하는 사람이 없도록 합니다."
+      },
+      "lead_qualifier": {
+        "name": "리드 검증",
+        "description": "인바운드 리드를 필터링하기 위해 검증 질문을 합니다."
+      },
+      "follow_up_reminder": {
+        "name": "후속 알림",
+        "description": "연락처가 24시간 내에 답장하지 않으면 알림을 보냅니다."
       }
     },
     "edit": {
@@ -1729,7 +1765,28 @@
       "saveSuccessUpdate": "문서가 업데이트되었습니다.",
       "saveFailed": "저장하지 못했습니다.",
       "removeSuccess": "문서가 제거되었습니다.",
-      "removeFailed": "제거하지 못했습니다.",
+     ,
+    "quickReplies": {
+      "title": "빠른 답장",
+      "description": "에이전트가 받은 편지함 작성기에서 삽입할 수 있는 재사용 가능한 스니펫 — 일반 텍스트 또는 저장된 인터랙티브 메시지.",
+      "newQuickReply": "새 빠른 답장",
+      "empty": "아직 빠른 답장이 없습니다. 대화에서 재사용할 답장을 만들어 보세요.",
+      "dialogEditTitle": "빠른 답장 편집",
+      "dialogNewTitle": "새 빠른 답장",
+      "nameLabel": "이름",
+      "namePlaceholder": "예: 영업 시간",
+      "kindText": "텍스트",
+      "kindInteractive": "인터랙티브",
+      "textPlaceholder": "삽입할 메시지 텍스트",
+      "cancel": "취소",
+      "save": "저장",
+      "toastNameRequired": "빠른 답장에 이름을 지정하세요.",
+      "toastSaveFailed": "빠른 답장을 저장하지 못했습니다.",
+      "toastUpdated": "빠른 답장이 업데이트되었습니다.",
+      "toastCreated": "빠른 답장이 생성되었습니다.",
+      "confirmDelete": "이 빠른 답장을 삭제하시겠습니까?",
+      "toastDeleteFailed": "빠른 답장을 삭제하지 못했습니다."
+    } "removeFailed": "제거하지 못했습니다.",
       "reindexSuccess": "문서 {count}개를 재색인했습니다.",
       "reindexFailed": "재색인에 실패했습니다.",
       "title": "지식베이스",

@@ -36,17 +36,23 @@ import { useTranslations } from "next-intl";
 // agent+. The two CTAs gate on different `useCan` capabilities,
 // not on different copy.
 
-// Spec-defined seed — name and color per the product spec.
-const SPEC_DEFAULT_STAGES = [
-  { name: "New Lead", color: "#3b82f6", position: 0 }, // blue
-  { name: "Qualified", color: "#eab308", position: 1 }, // yellow
-  { name: "Proposal Sent", color: "#f97316", position: 2 }, // orange
-  { name: "Negotiation", color: "#8b5cf6", position: 3 }, // purple
-  { name: "Won", color: "#22c55e", position: 4 }, // green
-];
+// Spec-defined seed — color and position per the product spec; names are
+// localized via Pipelines.page.defaultStages.
+const SPEC_DEFAULT_STAGE_KEYS = [
+  { key: "newLead", color: "#3b82f6", position: 0 }, // blue
+  { key: "qualified", color: "#eab308", position: 1 }, // yellow
+  { key: "proposalSent", color: "#f97316", position: 2 }, // orange
+  { key: "negotiation", color: "#8b5cf6", position: 3 }, // purple
+  { key: "won", color: "#22c55e", position: 4 }, // green
+] as const;
 
 export default function PipelinesPage() {
   const t = useTranslations("Pipelines.page");
+  const SPEC_DEFAULT_STAGES = SPEC_DEFAULT_STAGE_KEYS.map((s) => ({
+    name: t(`defaultStages.${s.key}`),
+    color: s.color,
+    position: s.position,
+  }));
   const supabase = createClient();
   const canEditSettings = useCan("edit-settings");
   const canCreateDeals = useCan("send-messages");
