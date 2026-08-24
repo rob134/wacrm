@@ -1,0 +1,15 @@
+name: Main Config
+version: 1.0.0
+schema: v1
+models:
+  - name: Meta Llama 3.3 70b Instruct
+    provider: nvidia
+    model: meta/llama-3.3-70b-instruct
+    apiKey: "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"
+    roles:
+      - chat
+      - edit
+    defaultCompletionOptions:
+      contextLength: 131000
+      maxTokens: 1024
+    useLegacyCompletionsEndpoint: false

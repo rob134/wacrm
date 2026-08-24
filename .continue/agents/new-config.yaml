@@ -1,0 +1,15 @@
+name: Main Config
+version: 1.0.0
+schema: v1
+models:
+  - name: Gemma 4 31b IT (NVIDIA)
+    provider: google
+    model: google/gemma-4-31b-it
+    apiKey: "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"
+    roles:
+      - chat
+      - edit
+    defaultCompletionOptions:
+      contextLength: 1048576
+      maxTokens: 16384
+    useLegacyCompletionsEndpoint: false
