@@ -111,13 +111,13 @@
       "ariaLabel": "Conversas por dia"
     },
     "pipelineDonut": {
-      "title": "Valor do pipeline",
+      "title": "Valor do funil",
       "description": "Negócios abertos por etapa",
       "noOpenDeals": "Ainda não há negócios abertos",
-      "noOpenDealsHint": "Crie negócios em Pipelines para ver a distribuição por etapa aqui.",
+      "noOpenDealsHint": "Crie negócios em Funis para ver a distribuição por etapa aqui.",
       "dealCount": "{count} {count, plural, =1 {negócio} other {negócios}}",
       "total": "Total geral",
-      "ariaLabel": "Valor do pipeline por etapa"
+      "ariaLabel": "Valor do funil por etapa"
     },
     "responseTimeChart": {
       "title": "Tempo médio da primeira resposta",
@@ -266,10 +266,10 @@
     },
     "templatePicker": {
       "sendTemplate": "Enviar modelo",
-      "fillPlaceholders": "Preencha os espaços em branco para renderizar este modelo. O Meta exige que todos os variáveis sejam definidos.",
+      "fillPlaceholders": "Preencha os espaços em branco para renderizar este modelo. A Meta exige que todas as variáveis sejam definidas.",
       "pickTemplate": "Selecione um modelo de WhatsApp aprovado para enviar a esse contato.",
       "noApprovedTemplates": "Nenhum modelo aprovado",
-      "noApprovedTemplatesHint": "Aprovar um modelo no Meta WhatsApp Manager, em seguida, sincronize-o de Configurações → Modelos.",
+      "noApprovedTemplatesHint": "Aprove um modelo no Meta WhatsApp Manager e depois sincronize-o em Configurações → Modelos.",
       "preview": "Pré-visualizar",
       "headerValuePlaceholder": "Valor para a variável de cabeçalho",
       "bodyValuePlaceholder": "Valor para {val}",
@@ -284,7 +284,7 @@
       "tags": "Etiquetas",
       "notes": "Notas",
       "deals": "Negócios",
-      "noTags": "Nenhum rótulo",
+      "noTags": "Nenhuma etiqueta",
       "noDeals": "Nenhum negócio",
       "addNotePlaceholder": "Adicionar uma nota..."
     },
@@ -384,7 +384,7 @@
         "custom": "Campos personalizados",
         "deals": "Negócios",
         "tags": "Etiquetas",
-        "noTags": "Nenhum rótulo",
+        "noTags": "Nenhuma etiqueta",
         "noDeals": "Nenhum negócio",
         "addNotePlaceholder": "Adicionar uma nota..."
       },
@@ -601,8 +601,8 @@
     "analytics": {
       "totalDeals": "Total de negócios",
       "totalDealsTooltip": "Quantidade de negócios deste funil que não estão marcados como perdidos. Negócios ganhos também são incluídos.",
-      "pipelineValue": "Valor do pipeline",
-      "pipelineValueTooltip": "Soma dos valores em dólares de todos os acordos nesse pipeline, excluindo acordos marcados como Perdido.",
+      "pipelineValue": "Valor do funil",
+      "pipelineValueTooltip": "Soma dos valores de todos os negócios deste funil, excluindo os negócios marcados como Perdido.",
       "avgDealSize": "Tamanho médio do negócio",
       "avgDealSizeTooltip": "Valor do funil dividido pelo total de negócios: o valor médio de um negócio não perdido.",
       "weightedValue": "Valor ponderado",
@@ -913,7 +913,7 @@
       "keywordsHint": "Lista separada por vírgulas (ex.: olá, ajuda, comprar)",
       "replyIds": "IDs de resposta",
       "replyIdsHint": "sim, não, mais_info",
-      "replyIdsHelp": "Ids de botão/lista-linha separados por vírgula para corresponder, exato. Use os mesmos ids que você definiu em um passo Send Buttons / Send List.",
+      "replyIdsHelp": "IDs de botão/linha de lista separados por vírgula para correspondência exata. Use os mesmos IDs definidos em uma etapa Enviar botões / Enviar lista.",
       "schedule": "Programação",
       "scheduleHint": "Expressão Cron (ex.: 0 9 * * 1-5)",
       "active": "Ativa",
@@ -928,9 +928,9 @@
         "saveFailed": "Salvar falhou"
       },
       "tags": {
-        "select": "Selecione uma tag…",
-        "placeholder": "Id da tag",
-        "unknown": "{id} (tag desconhecida)"
+        "select": "Selecione uma etiqueta…",
+        "placeholder": "ID da etiqueta",
+        "unknown": "{id} (etiqueta desconhecida)"
       },
       "fields": {
         "name": "Nome",
@@ -945,15 +945,15 @@
         "unknown": "{id} (agente desconhecido)"
       },
       "pipelines": {
-        "pipelineLabel": "Pipelinha",
-        "pipelineIdLabel": "ID do Pipelinha",
-        "stageLabel": "Fase",
-        "stageIdLabel": "ID da Fase",
-        "selectPipeline": "Selecione um pipelinha…",
-        "selectStage": "Selecione uma fase…",
-        "selectPipelineFirst": "Selecione um pipelinha primeiro…",
-        "unknownPipeline": "{id} (pipelinha desconhecida)",
-        "unknownStage": "{id} (fase desconhecida)"
+        "pipelineLabel": "Funil",
+        "pipelineIdLabel": "ID do funil",
+        "stageLabel": "Etapa",
+        "stageIdLabel": "ID da etapa",
+        "selectPipeline": "Selecione um funil…",
+        "selectStage": "Selecione uma etapa…",
+        "selectPipelineFirst": "Selecione um funil primeiro…",
+        "unknownPipeline": "{id} (funil desconhecido)",
+        "unknownStage": "{id} (etapa desconhecida)"
       },
       "templates": {
         "templateLabel": "Modelo",
@@ -972,7 +972,7 @@
       "config": {
         "messageText": "Texto da mensagem",
         "placeholderMessageText": "Olá! Obrigado por entrar em contato…",
-        "tagLabel": "Tag",
+        "tagLabel": "Etiqueta",
         "modeLabel": "Modo",
         "modes": {
           "round_robin": "Rodízio",
@@ -1019,7 +1019,7 @@
     "list": {
       "title": "Fluxos",
       "beta": "Beta",
-      "description": "Construa conversas do WhatsApp com ramificação de build, botões. Útil para menus, perguntas frequentes e triagem antes que um humano entre em ação.",
+      "description": "Construa conversas de WhatsApp ramificadas, com botões. Útil para menus, perguntas frequentes e triagem antes que um humano entre em ação.",
       "newFlow": "Novo fluxo",
       "statusDraft": "Rascunho",
       "statusActive": "Ativo",
@@ -1095,7 +1095,7 @@
       "badgeEntry": "Entrada",
       "noNodesYet": "Ainda não há nós.",
       "deleteNode": "Excluir nó",
-      "canvasView": "Câmera",
+      "canvasView": "Canvas",
       "listView": "Lista",
       "noNodeSelected": "Nenhum nó selecionado",
       "noNodeDesc": "Selecione um nó no canvas para editar sua configuração.",
@@ -1227,14 +1227,14 @@
       "video": "Vídeo",
       "document": "Documento",
       "audio": "Áudio",
-      "hasTag": "tem a tag {tag}",
+      "hasTag": "tem a etiqueta {tag}",
       "opContains": "contém",
       "opExists": "existe",
       "opMissing": "faltando",
       "modeAdd": "Adicionar",
       "modeRemove": "Remover",
-      "tagPicked": "{mode} tag {tag}…",
-      "tagNone": "{mode} tag (nenhum selecionado)"
+      "tagPicked": "{mode} etiqueta {tag}…",
+      "tagNone": "{mode} etiqueta (nenhuma selecionada)"
     }
   },
   "Settings": {
@@ -1283,7 +1283,7 @@
       "revoke": "Revogar",
       "revokedToast": "Convite revogado",
       "removeDialogTitle": "Remover membro",
-      "removeDialogDesc": "Remover <strong>{name}</strong> do conta? Eles serão saindo da conta e terão uma conta pessoal fresca no próximo login. Seu login não será deletado.",
+      "removeDialogDesc": "Remover <strong>{name}</strong> da conta? A pessoa será desconectada desta conta e receberá uma nova conta pessoal no próximo login. O login dela não será excluído.",
       "cancel": "Cancelar",
       "removing": "Removendo...",
       "removeBtn": "Remover membro"
@@ -1294,7 +1294,7 @@
       "inviteLink": "Link do convite",
       "copy": "Copiar",
       "saveLinkNow": "Salve esse link agora.",
-      "saveLinkHint": "Nós nunca armazenamos o texto em branco — assim que você fechar essa diálogo o URL é irremediável. Para re-compartilhar, revogue essa convite e crie um novo.",
+      "saveLinkHint": "Nós nunca armazenamos o texto puro — assim que você fechar esta caixa de diálogo, a URL será perdida. Para compartilhar novamente, revogue este convite e crie um novo.",
       "sendViaWhatsApp": "Enviar pelo WhatsApp",
       "done": "Concluído",
       "dialogTitle": "Convidar um colega",
@@ -1360,7 +1360,7 @@
       "newTemplate": "Novo modelo",
       "noTemplates": "Ainda não há modelos.",
       "createFirst": "Crie seu primeiro modelo de mensagem para começar.",
-      "editTitle": "Desencadeadores de edição Meta reavaliação — status muda para PENDING.",
+      "editTitle": "Editar desencadeia uma nova revisão da Meta — o status volta para PENDING.",
       "editLabel": "Editar modelo",
       "edit": "Editar",
       "resubmitTitle": "Edite o modelo e resubmeta para revisão da Meta.",
@@ -1372,9 +1372,9 @@
       "deleteLocallyTitle": "Exclua localmente",
       "dialogEditTitle": "Editar Modelo de Mensagem",
       "dialogNewTitle": "Novo Modelo de Mensagem",
-      "dialogEditDesc": "Salve suas alterações para re-submeter à Meta. O status voltará a PENDING durante a revisão.",
+      "dialogEditDesc": "Salve suas alterações para reenviar à Meta. O status voltará a PENDING durante a revisão.",
       "dialogNewDesc": "Construa um modelo e submeta-o à Meta para aprovação. Uma vez aprovado, você pode usá-lo em transmissões e na caixa de entrada.",
-      "authWarning": "Modelos de autenticação têm um corpo fixo + botão OTP que precisa de um construtor diferente. Crie-os no Meta WhatsApp Manager por enquanto e use <strong>Sync from Meta</strong> para trazê-los para cá.",
+      "authWarning": "Modelos de AUTENTICAÇÃO têm um corpo fixo + botão OTP que exige um construtor diferente. Crie-os no Meta WhatsApp Manager por enquanto e use <bold>Sincronizar com a Meta</bold> para trazê-los para cá.",
       "templateName": "Nome do modelo",
       "namePlaceholder": "ex.: confirmacao_pedido",
       "nameFixed": "O nome está fixo uma vez que um modelo existir na Meta — crie um novo modelo para mudá-lo.",
@@ -1391,12 +1391,12 @@
       "headerDocument": "Documento",
       "headerTextPlaceholder": "Texto de cabeçalho (máx 60 chars, opcional {{1}})",
       "headerSampleAria": "Valor de exemplo para a variável de cabeçalho",
-      "headerSamplePlaceholder": "Sample value for {{1}} (required for Meta review)",
-      "uploadImage": "Upload image",
+      "headerSamplePlaceholder": "Valor de exemplo para {{1}} (obrigatório para revisão da Meta)",
+      "uploadImage": "Enviar imagem",
       "uploadHint": "JPEG ou PNG, ≤5 MB",
       "mediaUrlPlaceholder": "https://… (ou cole um link público {format})",
-      "imageHint": "Uploadar uma JPEG/PNG (≤5 MB, ≥800×418 px recomendado) ou cole um link público HTTPS — ele é carregado automaticamente para Meta para revisão.",
-      "mediaHint": "Deve ser um link HTTPS público acessível. O Meta o carrega uma vez durante a revisão, então ele precisa ficar vivo por ~24 hrs.",
+      "imageHint": "Envie uma JPEG/PNG (≤5 MB, ≥800×418 px recomendado) ou cole um link público HTTPS — ela é enviada automaticamente à Meta para revisão.",
+      "mediaHint": "Deve ser um link HTTPS público acessível. A Meta o baixa uma vez durante a revisão, então ele precisa permanecer no ar por cerca de 24 horas.",
       "videoHint": "Recomendado: MP4 / 3GPP, ≤16 MB, ≤60 segundos.",
       "documentHint": "Recomendado: PDF, ≤100 MB.",
       "bodyText": "Texto da mensagem",
@@ -1426,7 +1426,7 @@
       "submitApproval": "Enviar para aprovação",
       "deleteDialogTitle": "Excluir modelo?",
       "deleteMetaDesc": "\"{name}\" será excluído do Meta e do hexoz. As transmissões ativas usando esse modelo começarão a falhar na próxima transmissão. Isso não pode ser desfeito.",
-      "deleteLocalDesc": "\"{name}\" será excluído do hexoz. Nunca foi submetido ao Meta, então não é necessário nenhum limpeza remota.",
+      "deleteLocalDesc": "\"{name}\" será excluído do hexoz. Nunca foi enviado à Meta, então nenhuma limpeza remota é necessária.",
       "deleting": "Excluindo…",
       "delete": "Excluir",
       "toastLoadFailed": "Não foi possível carregar os modelos",
@@ -1435,7 +1435,7 @@
       "toastSubmitNewSuccess": "Enviado à Meta; a revisão normalmente leva 24 horas. O status é atualizado automaticamente.",
       "toastSaveEditDry": "Modelo atualizado (simulação, sem chamada à Meta)",
       "toastSaveNewDry": "Modelo salvo (simulação, sem chamada à Meta)",
-      "toastSyncCount": "Sincronizado {total} {total, plural, =1 {template} other {templates}} do Meta",
+      "toastSyncCount": "{total} {total, plural, =1 {modelo sincronizado} other {modelos sincronizados}} da Meta",
       "toastSyncDetails": " ({inserted} novos, {updated} atualizados)",
       "toastSyncFailed": "Falha ao sincronizar: {preview}",
       "toastSyncTruncated": "Sincronizado apenas os primeiros 2000 modelos — sua conta tem mais. Sincronize novamente para continuar, ou entre em contato com o suporte se persistir.",
@@ -1555,7 +1555,7 @@
       "photoHint": "PNG, JPG, WebP ou GIF. Até 2 MB.",
       "displayName": "Nome de exibição",
       "email": "E-mail",
-      "emailChangeHint": "Verifique a caixa de entrada para <negrito>{oldEmail}</negrito> e <negrito>{newEmail}</negrito> — ambos precisam confirmar antes que a alteração tenha efeito.",
+      "emailChangeHint": "Verifique a caixa de entrada de <bold>{oldEmail}</bold> e <bold>{newEmail}</bold> — ambos precisam confirmar antes que a alteração tenha efeito.",
       "accountDetails": "Detalhes da conta",
       "role": "Função",
       "joined": "Entrou em",
@@ -1595,7 +1595,7 @@
       "cancel": "Cancelar",
       "signingOut": "Saindo…",
       "signOutEverywhere": "Sair de todos os dispositivos",
-      "signOutFailed": "Falha no deslogado: {message}"
+      "signOutFailed": "Falha ao sair: {message}"
     },
     "appearance": {
       "title": "Aparência",
