@@ -243,7 +243,7 @@ export default function NotificationsPage() {
                       {isUnread && (
                         <span
                           aria-label="Unread"
-                          className="{t("unreadAria")}flex-shrink-0 rounded-full bg-primary"
+                          className="h-2 w-2 flex-shrink-0 rounded-full bg-primary"
                         />
                       )}
                     </div>

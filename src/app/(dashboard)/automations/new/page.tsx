@@ -40,9 +40,9 @@ function NewAutomationPageInner() {
           parent_index: seed.parent_index ?? null,
         })),
       )
-      return {Templates(`${template}.name`),
-        description: tTemplates(`${template}.description`)
-        description: t.description,
+      return {
+        name: tTemplates(`${template}.name`),
+        description: tTemplates(`${template}.description`),
         trigger_type: t.trigger_type,
         trigger_config: t.trigger_config as Record<string, unknown>,
         is_active: false,
